@@ -32,6 +32,8 @@ nav{
 }
 .logo span{
     color: #e70634;
+    display:flex;
+    top:0;
 }
 
 nav.menu{
