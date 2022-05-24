@@ -578,7 +578,7 @@ nav .menu-btn{
     padding: 10px 30px;
     cursor: pointer;
     display: block;
-    margin: auto;
+    margin: 10px;
     background: linear-gradient(to right, #ff105f,#ffad07);
     border: 0;
     outline: none;
