@@ -547,6 +547,10 @@ nav .menu-btn{
     background-color: #fff;
     padding:15px;
 }
+.video-list-container .img{
+  width:100%;
+   width:100%;
+}
  
 .container .video-list-container::-webkit-scrollbar{
     width: 10px;
