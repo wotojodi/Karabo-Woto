@@ -33,7 +33,8 @@ nav{
 .logo span{
     color: #e70634;
     display:flex;
-    top:0;
+    top:10px;
+    float:right;
 }
 
 nav.menu{
