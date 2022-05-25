@@ -393,10 +393,11 @@ footer{
         content: '';
         display: block;
         height: 100%;
-        position: absolute;
+        position: relative;
         transition: all ease-out 0.2s;
         width: 100%;
     }
+    
     
 }
 
