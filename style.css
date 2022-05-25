@@ -340,6 +340,9 @@ footer{
     display: flex;
     padding: 10px 10%;
 }
+nav .menu-btn{
+        diplay:none;
+}
 @media(max-width:1100px){
     nav{
         justify-content: space-between;
@@ -415,9 +418,7 @@ footer{
         transform: rotate(45deg);
         top: 0;
     } 
-    nav .menu-btn{
-        diplay:none;
-    }
+    
      nav .menu-btn:checked ~ .menu{
         display: block;
     }
