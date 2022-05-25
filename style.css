@@ -19,3 +19,13 @@ nav{
     top: 0;
     z-index:103;
 }
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+   text-decoration: none; 
+}
+.logo{
+    height:35px;
+}
