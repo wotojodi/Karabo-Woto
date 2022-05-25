@@ -27,10 +27,9 @@ nav{
     z-index:100;
 }
 .logo{
+    heigt:35px;
     color: #e70634;
-}
-.logo span{
-    color: #e70634;
+    
 }
 
 nav.menu{
