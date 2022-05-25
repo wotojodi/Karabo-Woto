@@ -357,7 +357,7 @@ footer{
 }
 
 nav .menu-btn{
-    display: none;
+    display: block;
 }
 @media(max-width:1100px){
     nav{
@@ -462,6 +462,7 @@ nav .menu-btn{
         text-align: center;
         justify-content: center;
     }
+     
 }
 @media(max-width:680px){
     .nav{
