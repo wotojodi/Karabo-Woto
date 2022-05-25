@@ -423,6 +423,9 @@ footer{
         transform: rotate(45deg);
         top: 0;
     } 
+    #menu-btn{
+        display:block;
+    }
      nav .menu-btn:checked ~ .menu{
         display: block;
     }
