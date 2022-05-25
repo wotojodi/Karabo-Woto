@@ -30,7 +30,9 @@ a{
     height:35px;
     color: #e70634;
 }
-
+.logo span{
+  color: #e70634;  
+}
 nav.menu{
     display: flex;
 }
