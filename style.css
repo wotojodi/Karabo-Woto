@@ -25,6 +25,7 @@ nav{
     left: 0;
     top: 0;
     z-index:100;
+    padding:30px 50px;
 }
 .logo{
     height: 35px;
@@ -32,6 +33,7 @@ nav{
 }
 .logo span{
     color: #e70634;
+    margin:20px 20px;
 }
 
 nav.menu{
@@ -383,7 +385,7 @@ nav .menu-btn{
     nav .menu-icon{
         cursor: pointer;
         float: right;
-        padding: 28px 20px;
+        padding: 30px 20px;
         position: relative;
         user-select: none;
         display: block;
@@ -392,7 +394,7 @@ nav .menu-btn{
         background-color: #333333;
         display: block;
         height: 2px;
-        position: absolute;
+        position: relative;
         transition: background 0.2s ease-out;
         width: 18px;
     }
