@@ -356,7 +356,7 @@ nav .menu-btn{
     nav{
         justify-content: space-between;
         height: 70px;
-        padding:0px 10px;
+        padding:0px 20px;
 
     }
     nav .menu{
@@ -409,10 +409,10 @@ nav .menu-btn{
         width: 100%;
     }
     nav .menu-icon .nav-icon:before{
-        top: 5px;
+        top: -8px;
     }
     nav .menu-icon .nav-icon:after{
-        top: -5px;
+        top: 8px;
     }
     nav .menu-btn:checked ~ .menu-icon .nav-icon{
         background: transparent;
