@@ -28,13 +28,13 @@ nav{
     z-index:100;
 }
 .logo{
-    position:relative;
+    margin:30px;
     height: 35px;
     color: #e70634;
 }
 .logo span{
     color: #e70634;
-    position:absolute;
+    display:flex;
 }
 
 nav.menu{
@@ -406,7 +406,7 @@ nav .menu-btn{
         content: '';
         display: block;
         height: 100%;
-        position: absolute;
+        position: relative;
         transition: all ease-out 0.2s;
         width: 100%;
     }
