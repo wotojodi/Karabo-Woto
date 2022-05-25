@@ -400,7 +400,7 @@ nav .menu-btn{
         background-color: #333333;
         display: block;
         height: 2px;
-        position: absolute;
+        position: relative;
         transition: background 0.2s ease-out;
         width: 18px;
     }
