@@ -462,13 +462,8 @@ nav .menu-btn{
     }
 }
 @media(max-width:680px){
-    .nav{
-        display: grid;
-        grid-template-columns: 60px 1fr;
-        grid-template-rows: 1fr 1fr ;
-        padding:20px 0px ;
-    }
     .logo{
+	    
         margin: 0px;
     }
     #main-slider{
