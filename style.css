@@ -28,4 +28,72 @@ a{
 }
 .logo{
     height:35px;
+    color: #e70634;
+}
+nav.menu{
+    display: flex;
+}
+nav .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin:0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px;
+}
+.search{
+    width: 250px;
+    height: 40px;
+    background-color:rgba(245,245,245,0.8) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+.search input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #3a3a3a;
+}
+.search input::placeholder{
+    color: #3a3a3a;
+}
+.search i{
+    color: #3a3a3a;
+}
+
+nav .menu li a:hover{
+    background-color: #242424;
+    color: #fff;
+    box-shadow: 5px 1px 30px rgba(53,53,53,0.1);
+    transition: all ease 0.2s;
+}
+.dropbtn {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    line-height: 43px;
+    margin:0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
 }
