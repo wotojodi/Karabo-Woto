@@ -360,7 +360,7 @@ nav .menu-btn{
     }
     nav .menu{
         display: none;
-        position: absolute;
+        position: relative;
         top: 65px;
         left: 0px;
         background: #fff;
@@ -403,7 +403,7 @@ nav .menu-btn{
         content: '';
         display: block;
         height: 100%;
-        position: relative;
+        position: absolute;
         transition: all ease-out 0.2s;
         width: 100%;
     }
