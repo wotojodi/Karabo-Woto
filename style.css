@@ -353,7 +353,7 @@ footer{
         top: 65px;
         left: 0px;
         background: #fff;
-        border-bottom: 4px solid#242424;
+        border-bottom: 4px solid #242424;
         width: 100%;
         padding: 0px;
         margin: 0px;
@@ -408,13 +408,19 @@ footer{
         background: transparent;
     }
     nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
-        transform: rotate(45deg);
+        transform: rotate(-45deg);
         top: 0;
     }
     nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
         top: 0;
     } 
+    nav .menu-btn{
+        diplay:none;
+    }
+     nav .menu-btn:checked ~ .menu{
+        display: block;
+    }
 }
 
 
