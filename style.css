@@ -1,1 +1,21 @@
-
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.04);
+    background-color: #ffffff;
+    left: 0;
+    top: 0;
+    z-index:103;
+}
