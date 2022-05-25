@@ -31,7 +31,8 @@ a{
     color: #e70634;
 }
 .logo span{
-    font-size:0.8rem;
+    color: #e70634;
+    font-size:0.2rem;
 }
 nav.menu{
     display: flex;
