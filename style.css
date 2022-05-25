@@ -386,9 +386,7 @@ nav .menu-btn{
         cursor: pointer;
         float: right;
         padding: 30px 20px;
-        position: relative;
         user-select: none;
-        display: block;
     }
     nav .menu-icon .nav-icon{
         background-color: #333333;
@@ -404,7 +402,7 @@ nav .menu-btn{
         content: '';
         display: block;
         height: 100%;
-        position: absolute;
+        position: relative;
         transition: all ease-out 0.2s;
         width: 100%;
     }
