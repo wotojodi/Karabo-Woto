@@ -29,14 +29,11 @@ nav{
 .logo{
     color: #e70634;
     font-size:3rem;
-    font-weight:400;
-     margin:0px auto 0px 40px;
      display:flex;
      align-items:center;
 }
 .logo span{
     color: #e70634;
-    font-size:0.7rem;
 }
 
 nav.menu{
