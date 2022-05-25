@@ -373,7 +373,7 @@ nav .menu-btn{
         top: 65px;
         left: 0px;
         background: #fff;
-        border-bottom: 4px solid#242424;
+        border-bottom: 4px solid #242424;
         width: 100%;
         padding: 0px;
         margin: 0px;
@@ -403,7 +403,7 @@ nav .menu-btn{
         background-color: #1a1a1a;
         display: block;
         height: 2px;
-        position: relative;
+        position: absolute;
         transition: background 0.2s ease-out;
         width: 18px;
 	color:#333333;
