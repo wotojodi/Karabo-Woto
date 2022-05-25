@@ -33,6 +33,7 @@ nav{
      margin:0px auto 0px 40px;
      display:flex;
      align-items:center;
+	float:right;
 }
 .logo span{
     color: #e70634;
