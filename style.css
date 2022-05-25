@@ -20,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position:fixed;
     width: 100%;
     border: 1px solid rgba(0,0,0,0.04);
     background-color: #ffffff;
