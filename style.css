@@ -428,11 +428,11 @@ nav .menu-btn{
         background: transparent;
     }
     nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
         top: 0;
     }
     nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
-        transform: rotate(45deg);
+        transform: rotate(-45deg);
         top: 0;
     }
     nav .menu-btn:checked ~ .menu{
@@ -464,6 +464,12 @@ nav .menu-btn{
     }
 }
 @media(max-width:680px){
+    .nav{
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        grid-template-rows: 1fr 1fr ;
+        padding:20px 0px ;
+    }
     .logo{
 	    
         margin: 0px;
