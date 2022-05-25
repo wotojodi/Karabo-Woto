@@ -38,6 +38,7 @@ nav{
     color: #e70634;
     font-size:0.7rem;
     font-weight:700;
+    display:flex;
 }
 
 nav.menu{
