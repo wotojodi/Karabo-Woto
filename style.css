@@ -41,7 +41,6 @@ nav{
 .logo span{
     color: #e70634;
     position:relative;
-    background:red;
 }
 
 nav.menu{
@@ -403,7 +402,7 @@ nav .menu-btn{
         background-color: #1a1a1a;
         display: block;
         height: 2px;
-        position: absolute;
+        position: relative;
         transition: background 0.2s ease-out;
         width: 18px;
 	color:#333333;
