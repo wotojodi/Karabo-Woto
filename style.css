@@ -25,7 +25,7 @@ nav{
     background-color: #ffffff;
     left: 0;
     top: 0;
-    z-index:100;
+    z-index:103;
 }
 .logo{
     margin:30px;
@@ -35,6 +35,7 @@ nav{
 .logo span{
     color: #e70634;
     display:flex;
+	margin:30px;
 }
 
 nav.menu{
@@ -387,10 +388,10 @@ nav .menu-btn{
     nav .menu-icon{
         cursor: pointer;
         float: right;
-        padding: 28px 20px;
-        position: absolute;
+        padding: 20px 10px;
         user-select: none;
         display: block;
+	
     }
     nav .menu-icon .nav-icon{
         background-color: #333333;
@@ -398,7 +399,7 @@ nav .menu-btn{
         height: 2px;
         position: relative;
         transition: background 0.2s ease-out;
-        width: 18px;
+        width: 25px;
     }
     nav .menu-icon .nav-icon:before,
     nav .menu-icon .nav-icon:after{
@@ -406,7 +407,7 @@ nav .menu-btn{
         content: '';
         display: block;
         height: 100%;
-        position: relative;
+        position: absolute;
         transition: all ease-out 0.2s;
         width: 100%;
     }
@@ -463,7 +464,7 @@ nav .menu-btn{
         padding:20px 0px ;
     }
     .logo{
-        margin: 0px;
+        margin: 10px;
     }
     #main-slider{
         margin: 30px;
