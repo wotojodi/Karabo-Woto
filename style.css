@@ -23,12 +23,12 @@ nav{
     width: 100%;
     border: 1px solid rgba(0,0,0,0.04);
     background-color: #ffffff;
-    position: fixed;
     left: 0;
     top: 0;
     z-index:100;
 }
 .logo{
+    position:relative;
     height: 35px;
     color: #e70634;
 }
