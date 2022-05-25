@@ -1,3 +1,5 @@
+
+  
 body{
     margin: 0px;
     padding: 0px;
@@ -25,16 +27,13 @@ nav{
     left: 0;
     top: 0;
     z-index:100;
-    margin:auto;
 }
-
 .logo{
     height: 35px;
     color: #e70634;
 }
 .logo span{
     color: #e70634;
-    position:relative;
 }
 
 nav.menu{
@@ -347,11 +346,11 @@ footer{
     align-items: center;
     justify-content: space-around;
     display: flex;
-    
+    padding: 10px 10%;
 }
 
 nav .menu-btn{
-    display:none;
+    display: none;
 }
 @media(max-width:1100px){
     nav{
@@ -366,7 +365,7 @@ nav .menu-btn{
         top: 65px;
         left: 0px;
         background: #fff;
-        border-bottom: 4px solid #242424;
+        border-bottom: 4px solid#242424;
         width: 100%;
         padding: 0px;
         margin: 0px;
@@ -376,7 +375,6 @@ nav .menu-btn{
 
     }
     nav .menu li a{
-
         width: 100%;
         height: 40px;
         align-items: center;
@@ -393,24 +391,22 @@ nav .menu-btn{
         display: block;
     }
     nav .menu-icon .nav-icon{
-        background-color: #1a1a1a;
+        background-color: #333333;
         display: block;
         height: 2px;
         position: absolute;
         transition: background 0.2s ease-out;
         width: 18px;
-	color:#333333;
     }
     nav .menu-icon .nav-icon:before,
     nav .menu-icon .nav-icon:after{
-        background-color: #333333;
+        background: #333333;
         content: '';
         display: block;
         height: 100%;
         position: absolute;
         transition: all ease-out 0.2s;
         width: 100%;
-	color:#333333;
     }
     nav .menu-icon .nav-icon:before{
         top: 5px;
@@ -456,7 +452,6 @@ nav .menu-btn{
         text-align: center;
         justify-content: center;
     }
-     
 }
 @media(max-width:680px){
     .nav{
@@ -466,7 +461,6 @@ nav .menu-btn{
         padding:20px 0px ;
     }
     .logo{
-	    
         margin: 0px;
     }
     #main-slider{
@@ -479,14 +473,13 @@ nav .menu-btn{
     .movie-box{
         width: 90%;
         border: 1px solid rgba(0,0,0,0.2);
-	flex-direction:row;
     }
     .movie-box a{
         width: 65%;
     }
     footer{
         justify-content: space-between;
-        padding: 0px 20px;
+        padding: 0px;
         text-align: center;
     }
 }
@@ -640,6 +633,7 @@ nav .menu-btn{
 
 
 
+
 .hero{
  height: 100%;
  width: 100%;
@@ -715,8 +709,7 @@ nav .menu-btn{
     background: linear-gradient(to right, #ff105f,#ffad07);
     border: 0;
     outline: none;
-    border-radius: 30px; 
-   
+    border-radius: 30px;  
 }
 .chech-box{
     margin-top: 30px 10px 30px 0;
@@ -724,7 +717,7 @@ nav .menu-btn{
 span{
     color: #ffffffc9;
     font-size: 12px;
-    bottom:68px;
+    bottom: 68px;
     position: absolute;
 }
 #login{
@@ -733,7 +726,6 @@ span{
 #register{
     left: 450px;
 }
-
 
 
 
@@ -797,7 +789,6 @@ button[type="submit"]{
 }
 button[type="submit"]:hover{
     background-color: #3963f0;
-
 }
 
 
